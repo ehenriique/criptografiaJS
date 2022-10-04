@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cifra de Cesar </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="imagem/x-icon" href="https://cdn-icons-png.flaticon.com/512/1792/1792193.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <img src="/banner.jpg" alt="cifra de cesar">
+        <h1>
+            Mensagens Criptografadas
+        </h1>
+    </header>
+        <br>
+        <br>
+    <main class="main-container">
+        <div class="container-input">
+            <div class="input">
+                <textarea id="input-text" placeholder="Digite seu texto aqui...">
+                </textarea>
+                <p> Atenção: Digite apenas letras MAIÚSCULAS e sem ACENTOS </p>
+            </div>
+         
+            <div id="container-output">
+                <div id="output">
+                <h2> Sua Mensagem Codificada aparecerá aqui!</h2>
+                <span> Digite um texto que Criptografar ou Descriptografar. </span>
+            </div>
+            </div>
+        </div> 
+        <div class="container-btn">
+        <div class="buttons">
+                <button onclick="criptografar()" class="btn-criptografar">Criptografar</button>
+                <button onclick="descriptografar()" class="btn-descriptografar">Descriptografar</button>
+            </div>
+        </div>    
+
+    </main>
+
+
+    <footer>
+        <div class="rodape">
+            <div class="icons">
+                <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                <a href="https://github.com/ehenriique"><ion-icon name="logo-github"></ion-icon></a>
+                <br>
+                <h3>Desenvolvido por Henrique O.</h3>
+            </div>
+        </div>
+    </footer>
+
+    <script  rel="script" src="index.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
